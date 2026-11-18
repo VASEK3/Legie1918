@@ -4,7 +4,7 @@ LEGIE 1918 — JAK APLIKACI ZVEŘEJNIT NA NETLIFY
 
 2. Plná verze s AI: rozbal legie1918-netlify-projekt.zip a vlož obsah projektu do GitHub repozitáře. Na https://app.netlify.com/import vyber repozitář; soubor netlify.toml automaticky nastavuje publish složku public a serverovou funkci.
 
-3. V Netlify přidej environment variable OPENAI_API_KEY do projektu (scope Functions). Volitelně CHAT_ACCESS_CODE a OPENAI_MODEL. Pak proveď znovu deploy.
+3. Chat používá Netlify AI Gateway bez vlastního API klíče. Volitelně nastav CHAT_ACCESS_CODE pro omezení přístupu. Spotřeba AI čerpá kredity Netlify. Pak proveď znovu deploy.
 
 4. Zobraz web na Androidu nebo iOS a přes menu prohlížeče zvol Přidat na domovskou obrazovku.
 

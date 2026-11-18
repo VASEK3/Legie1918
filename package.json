@@ -1,0 +1,11 @@
+{
+  "name": "legie1918",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "sh VERIFY.sh"
+  },
+  "dependencies": {
+    "openai": "^7.59.0"
+  }
+}
